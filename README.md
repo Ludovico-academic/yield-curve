@@ -18,12 +18,10 @@ This is **Code 01** for University of Hull teaching materials.
 - Packages:
   - `pandas`
   - `plotly`
-  - `notebook` (optional, for Jupyter)
-  - `ipykernel` (optional, for VS Code Jupyter kernel)
 
 Install:
 ```bash
-pip install pandas plotly notebook ipykernel
+pip install pandas plotly
 ```
 
 ## How to run
