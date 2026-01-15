@@ -34,7 +34,7 @@ fig = go.Figure(
 )
 
 camera_preset = dict(
-    eye=dict(x=-1.26, y=1.82, z=0.63),
+    eye=dict(x=1.26, y=1.82, z=0.63),
     up=dict(x=0, y=0, z=1)
 )
 
