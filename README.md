@@ -24,7 +24,7 @@ This is **Code 01** for University of Hull teaching materials.
 
 Install:
 ```bash
-pip install pandas plotly
+pip install pandas plotly pandas_datareader
 ```
 
 ## How to run
