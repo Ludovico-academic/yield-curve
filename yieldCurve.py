@@ -30,10 +30,7 @@ start = "1990-01-01"
 end = pd.Timestamp.today().strftime("%Y-%m-%d")
 
 df = web.DataReader(list(fred_series.values()), "fred", start, end)
-
 df = df.rename(columns={v: k for k, v in fred_series.items()})
-df = df.resample("W").mean() # W➔week, comment it out for Daily obs
-
 df = df.dropna()
 
 x_map = {
