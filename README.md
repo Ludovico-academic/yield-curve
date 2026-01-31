@@ -1,4 +1,4 @@
-# hull-01-yield-curve
+# UoH-01-yield-curve
 
 Interactive 3D **US Treasury yield curve surface** (1990–present) built in Python (pandas + Plotly), using **pandas_datareader** to pull data from FRED (Federal Reserve Economic Data).
 This is **Code 01** for University of Hull teaching materials.
